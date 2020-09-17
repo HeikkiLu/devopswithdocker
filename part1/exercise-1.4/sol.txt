@@ -1,0 +1,11 @@
+docker ps
+
+CONTAINER ID        IMAGE                               COMMAND                  CREATED             STATUS              PORTS               NAMES
+ca6b2fdc69a0        devopsdockeruh/exec_bash_exercise   "docker-entrypoint.s…"   4 minutes ago       Up 4 minutes                            practical_brattain
+d98b8462cd83        ubuntu:16.04                        "sh -c 'while true; …"   9 minutes ago       Up 9 minutes                            looper-it
+491af3c55790        nginx                               "/docker-entrypoint.…"   About an hour ago   Up About an hour    80/tcp              thirsty_elgamal
+
+docker exec -it  ca bash
+
+Secret message is:
+"Docker is easy"
