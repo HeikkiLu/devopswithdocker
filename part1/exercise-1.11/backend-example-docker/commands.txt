@@ -1,0 +1,1 @@
+docker run -it -v /home/luigi/code/devopswithdocker/part1/exercise-1.11/backend-example-docker/logs.txt:/logs.txt -p 8000:8000 backendexample
